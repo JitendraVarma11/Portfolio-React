@@ -9,6 +9,9 @@ import {
 import "./Footer.css"; // Import your CSS for styling if needed
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import { animateScroll } from "react-scroll";
+const linkedinLink="https://linkedin.com/in/jitendravarma11";
+const githubLink="https://github.com/jitendraVarma11";
+const instagramLink="https://www.instagram.com/_jitendraverma_";
 
 export const Footer = () => {
   const scrollToHome = () => {
@@ -18,20 +21,23 @@ export const Footer = () => {
     <footer className="footer">
       <div className="social-icons">
         <a
-          href="https://linkedin.com/in/jitendravarma11"
+          href={linkedinLink}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
-          href="https://github.com/jitendraVarma11"
+          href={githubLink}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
-          href="https://www.instagram.com/_jitendraverma_"
+          href={instagramLink}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
