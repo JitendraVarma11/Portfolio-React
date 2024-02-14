@@ -20,21 +20,18 @@ export const Footer = () => {
         <a
           href="https://linkedin.com/in/jitendravarma11"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           href="https://github.com/jitendraVarma11"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           href="https://www.instagram.com/_jitendraverma_"
           target="_blank"
-          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
