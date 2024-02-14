@@ -95,9 +95,9 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   .banner h1 {
-    width: 98vw;
+    width: 100vw;
   }
   .banner p {
     width: 96vw;
@@ -107,7 +107,7 @@
     flex-direction: column;
   }
   .banner {
-    margin-right: -5rem;
+    margin-right: -6.5rem;
   }
   .banner img {
     margin-top: 2rem;
@@ -116,5 +116,10 @@
   }
   .banner-row {
     animation: moveLeftToRight 0.5s linear;
+  }
+}
+@media (max-width:380px){
+  .banner {
+    margin-right: -8rem;
   }
 }

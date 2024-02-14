@@ -70,7 +70,7 @@
       transform: translateY(-20px);
     }
   }
-  @media (max-width:760px){
+  @media (max-width:800px){
     .svg{
       order: 2;
       margin-left: -3.5rem;
@@ -87,7 +87,7 @@
       margin-left: 1rem;
     }
     .contact{
-      margin-right: -5rem !important;
+      margin-right: -6.5rem !important;
     }
     .container1{
       margin-left: 1.5rem !important;
@@ -102,5 +102,10 @@
       100% {
         transform: translateY(-30px);
       }
+    }
+  }
+  @media (max-width:380px){
+    .contact{
+      margin-right: -8rem !important;
     }
   }
