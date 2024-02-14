@@ -1,0 +1,123 @@
+.skills-container {
+  background-image: url(../assets/img/backgroundimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: -1.1rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr auto;
+  gap: 10px ;
+  padding: 20px;
+}
+.skills-title {
+  margin-bottom: -0.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #ead24e;
+  @media (max-width: 768px) {
+    margin-top: 12px;
+    font-size: 1.8rem;
+  }
+}
+
+.skills-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-section {
+  max-width: 25rem;
+  height: 12rem;
+  margin-bottom: 20px;
+  border: 0.1px solid #854ce6;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 25px;
+  border-radius: 16px;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills-section-title {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #b1b2b3;
+}
+
+.skills-section-content {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  border: 1px solid #f2f3f4;
+  color: #f2f3f4;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+.skill img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.skill-name {
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+.skill-container-2{
+  margin: 1.5rem;
+  width: 95%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1d1c1c;
+  box-shadow: 0 0 10px 0 #b8b6b6;
+}
+
+@media (max-width:760px) {
+  .skills-container{
+    margin-right: -4.97rem;
+    padding: 1rem 2rem;
+  }
+  .skills-section {
+    height:23rem;
+  }
+}

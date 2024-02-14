@@ -1,0 +1,106 @@
+.contact {
+  margin-top: -1.5rem;
+  background-color: #121212;
+  color: #fff !important;
+}
+.contact h2{
+  padding-top: 2.5rem;
+  color: #ead24e;
+}
+.container1 {
+  display: flex;
+  justify-content:flex-start;
+  gap: 5rem;
+  margin-left: 16rem;
+}
+.svg {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  width: 22rem ;
+  filter: drop-shadow(5px 5px 5px rgb(117, 90, 90));
+  animation: updown 3s linear infinite;
+}
+.fields {
+  margin-top: 1rem !important;
+}
+.textfield {
+  margin-bottom: 1rem !important;
+  width: 25rem !important;
+}
+.textfield label {
+  color: #fff !important;
+}
+.textfield .MuiInputBase-input {
+  color: #fff !important;
+}
+.textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #fff !important;
+}
+
+.container1 button {
+  color: #fff;
+  margin-bottom: 2rem;
+  margin-left: 19rem !important;
+  width: 6rem !important;
+  height: 2.5rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send-btn{
+  font-size: 1.2rem !important;
+}
+.container1 button:hover {
+  opacity: 0.8;
+  box-shadow: 0 8px 16px rgba(23, 58, 110, 0.664) !important;
+}
+@keyframes updown {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  @media (max-width:760px){
+    .svg{
+      order: 2;
+      margin-left: -3.5rem;
+      margin-top: 4rem;
+    }
+    .fields{
+      order: 1 ;
+    }
+    .container1 button{
+      margin-left: 0.1rem !important;
+    }
+    .textfield{
+      width: 18rem !important;
+      margin-left: 1rem;
+    }
+    .contact{
+      margin-right: -5rem !important;
+    }
+    .container1{
+      margin-left: 1.5rem !important;
+    }
+    @keyframes updown {
+      0% {
+        transform: translateY(-30px);
+      }
+      50% {
+        transform: translateY(30px);
+      }
+      100% {
+        transform: translateY(-30px);
+      }
+    }
+  }
