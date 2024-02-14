@@ -5,7 +5,7 @@ import { Banner } from "./Components/Banner.jsx";
 import { Skills } from "./Components/Skills.jsx";
 import { Project } from "./Components/Project.jsx";
 import { Contact } from "./Components/Contact.jsx";
-import { Footer } from "./Components/footer.jsx";
+import { Footer } from "./Components/Footer.jsx";
 
 function App() {
   return (
