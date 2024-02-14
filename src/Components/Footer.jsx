@@ -6,7 +6,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Footer.css"; // Import your CSS for styling if needed
+import "./footer.css";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import { animateScroll } from "react-scroll";
 const linkedinLink="https://linkedin.com/in/jitendravarma11";
