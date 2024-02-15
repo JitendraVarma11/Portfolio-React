@@ -104,7 +104,7 @@ nav ul li:hover {
 .mobile-menu-icon {
   display: none;
 }
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   .mobile-menu-icon {
     display: block;
     font-size: 1.8rem;
@@ -128,7 +128,8 @@ nav ul li:hover {
     position: absolute;
     top: 5rem;
     left: 0;
-    width: 28.5rem;
+    right: 0;
+    min-width: 100%;
     height: 100vh;
     background: transparent;
     background-color: rgba(66, 66, 66, 0.1);

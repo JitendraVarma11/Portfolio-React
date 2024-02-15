@@ -24,7 +24,7 @@ export const Contact = () => {
             duration={1}
             delay={100}
           >
-            <img src={contactSvg} alt="contact-svg" />
+            <img src={contactSvg} alt="contact-svg" className="contact-svg"/>
           </ScrollAnimation>
         </div>
         <form

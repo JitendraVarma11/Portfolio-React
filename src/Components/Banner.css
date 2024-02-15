@@ -5,6 +5,8 @@
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  /* width: 100%;
+  overflow-x: hidden; */
   z-index: 999;
 }
 .banner .tagline {
@@ -31,14 +33,14 @@
   line-height: 1;
   margin-bottom: 20px;
   display: block;
-  width: 40rem;
+  /* width: 40rem; */
 }
 .banner p {
   color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  /* width: 96%; */
 }
 .banner button {
   color: #fff;
@@ -67,9 +69,8 @@
   cursor: pointer;
 }
 .banner img {
-  width: 30rem;
+  max-width: 30rem;
   height: 25rem;
-  margin-left:5rem;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
@@ -110,8 +111,10 @@
     margin-right: -6.5rem;
   }
   .banner img {
-    margin-top: 2rem;
-    margin-left: -2rem;
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     height: 22rem;
   }
   .banner-row {
