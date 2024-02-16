@@ -49,7 +49,7 @@ export const Project = () => {
             </Typography>
           </CardContent>
           <CardActions className="card-action">
-            <a href="">
+            <a href="https://graceful-kheer-301fde.netlify.app">
               <Button
                 size="small"
                 className="view-btn"
@@ -137,7 +137,7 @@ export const Project = () => {
             </Typography>
           </CardContent>
           <CardActions className="card-action">
-            <a href="">
+            <a href="https://jitendra-varma.vercel.app/">
               <Button
                 size="small"
                 className="view-btn"
@@ -146,7 +146,7 @@ export const Project = () => {
                 View
               </Button>
             </a>
-            <a href="">
+            <a href="https://github.com/JitendraVarma11/Portfolio-React.git">
               <Button
                 size="small"
                 className="source-code-btn"
