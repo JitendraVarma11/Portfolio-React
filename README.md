@@ -8,7 +8,6 @@ This is a personal portfolio website created using React.js, focusing on animati
 - Responsive Layout: Ensures that the portfolio looks great and functions well on various devices and screen sizes.
 - Project Showcase: Provides a section to display featured projects with descriptions and links to their respective repositories or live demos.
 - Skills Section: Highlights my skills and proficiencies in various technologies or tools.
-- About Me: Includes a brief introduction about myself, my background, and my interests.
 - Contact Form: Allows visitors to reach out to me directly through a contact form.
 
 ## Technologies Used
